@@ -1,0 +1,111 @@
+/* Base Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background: #ffffff;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Hero / Profile */
+.hero {
+  min-height: 30vh; /* reduced height */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 2rem 1rem;
+  background: linear-gradient(to right, #2193b0, #6dd5ed); /* blue gradient */
+  color: white;
+  border-bottom: 1px solid #ddd;
+}
+
+.hero h1 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.hero p {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.hero p a.hero-link {
+  color: #ffffff;
+  text-decoration: underline;
+  font-weight: 500;
+}
+
+.hero p a.hero-link:hover {
+  color: #ffeb3b; /* highlight on hover */
+}
+
+/* Sections */
+section {
+  padding: 2rem 1rem;
+  max-width: 700px;
+  margin: auto;
+}
+
+h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  text-align: center;
+  color: #111;
+}
+
+/* Projects */
+.project {
+  background: #f9f9f9;
+  padding: 1rem 1.2rem;
+  margin: 1rem 0;
+  border-radius: 6px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.project h3 a {
+  color: #2193b0;
+  text-decoration: none;
+}
+
+.project h3 a:hover {
+  text-decoration: underline;
+}
+
+/* Contact */
+section#contact a {
+  color: #333;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+section#contact a:hover {
+  text-decoration: underline;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 1rem;
+  border-top: 1px solid #ddd;
+  color: #555;
+  font-size: 0.9rem;
+  margin-top: 2rem;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .hero h1 {
+    font-size: 1.5rem;
+  }
+
+  .hero p {
+    font-size: 0.9rem;
+  }
+}
