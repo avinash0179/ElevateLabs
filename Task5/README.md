@@ -14,7 +14,7 @@ The website is **responsive, minimalistic, and professional**, hosted on **GitHu
 ---
 
 ## Live Demo
-🌐 Visit the live website: [https://<yourusername>.github.io](https://<yourusername>.github.io)  
+🌐 Visit the live website: [https://avinash0179.github.io/ElevateLabs/Task5](https://avinash0179.github.io/ElevateLabs/Task5)  
 *(Replace `<yourusername>` with your GitHub username)*
 
 ---
